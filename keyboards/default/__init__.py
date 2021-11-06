@@ -1,0 +1,1 @@
+from .default_menu import menu_start

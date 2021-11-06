@@ -1,0 +1,2 @@
+BOT_TOKEN = "2051601280:AAEi7EIiS3vJ-IfA2juMwH2yhuflfmBjFEU"
+BD_NAME = "dataBase.db"
