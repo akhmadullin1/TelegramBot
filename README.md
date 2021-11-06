@@ -1,4 +1,4 @@
-# TelegramBot To-do-list
+# TelegramBot To do list
 <b>Информация:</b> <br/>
 /start - начало работы с программой, создаем запись о пользователе.<br/>
 /menu - вызов меню с кнопками:<br/>
