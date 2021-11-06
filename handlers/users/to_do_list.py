@@ -58,7 +58,7 @@ async def show_tasks(call: CallbackQuery):
                         "{task_text}\n\n " \
                         "<b>Время исполнения:</b>\n " \
                         "{task_time}\n\n " \
-                        "<u><b>{task_check}</b></u>".format(task_text=task[2], task_time=task[3][0:-3],
+                        "<u><b>{task_check}</b></u>".format(task_text=task[2], task_time=task[3],
                                                             task_check="Не выделено" if task[4] else "Выделено")
             await call.message.answer(data_task)
             await call.answer()
