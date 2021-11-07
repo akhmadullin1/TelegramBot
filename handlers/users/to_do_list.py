@@ -49,7 +49,7 @@ async def show_menu(message: Message):
 
 
 @dp.callback_query_handler(lambda call: call.data)
-async def show_tasks(call: CallbackQuery):
+async def show_task(call: CallbackQuery):
     list_tasks = get_tasks(cur, call.from_user.id)
     for task in list_tasks:  # Среди задач пользователя выводим ту, которую он нажал
         if task[0] == int(call.data):
